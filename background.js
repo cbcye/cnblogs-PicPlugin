@@ -123,7 +123,7 @@ function SendReplaceEditorText(oldurl,newurl,sender)
         oldurl: oldurl,
         newurl: newurl
     }, function (response) {
-        //console.log(response.msg);
+        console.log(response.msg);
     });
 }
 
